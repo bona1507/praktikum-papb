@@ -19,10 +19,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     Button _btStart;
     boolean isPlay=false;
 
-    /////// Modification
     SlotTask _slottask1,_slottask2,_slottask3;
     ExecutorService _execService1,_execService2,_execService3,_execServicePool;
-    ///
+
 
 
     private static int[] _imgs = {R.drawable.slot1, R.drawable.slot2, R.drawable.slot3, R.drawable.slot1,
